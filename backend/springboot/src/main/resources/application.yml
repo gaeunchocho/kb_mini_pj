@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot
+
+dart:
+  api:
+    key: ${DART_API_KEY}
+    base-url: https://opendart.fss.or.kr/api

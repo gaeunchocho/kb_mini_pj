@@ -1,5 +1,14 @@
 package kb_bridge.domain.company.entity;
 
-public class Company {
+import java.time.LocalDate;
 
+public record Company(
+        String companyId,
+        String companyName,
+        LocalDate consultationDate,
+        String investmentPlan,
+        String fundingPlan,
+        String foreignBusinessPlan,
+        String rmMemo
+) {
 }
